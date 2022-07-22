@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+
+
+<h1>hello Every one </h1>
+
+<button id="btn1">Append text</button>
+<hr>
+<hr>
+<ol>
+  <li>Shirt</li>
+  <li>T-shirt</li>
+  <li>Jeans</li>
+</ol>
+
+<button id="btn2">Add Items</button>
+
+</body>
+<script>
+  // $(document).ready(function(){
+  //   $("#btn1").click(function(){
+  //     $("h1").append("hey....!!!!");
+  //   });
+  // });
+// $(document).ready(function(){
+//   $("#btn1").click(function(){
+//     $("h1").append("How are you");
+//   });
+$(document).ready(function(){
+  $("#btn2").click(function(){
+    $("ol").append("<li>Casual wear</li>");  
+  });
+})
+  
+// });
+</script>
+</html>
